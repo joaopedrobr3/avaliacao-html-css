@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color:blanchedalmond;
+    display: flex;
+    flex: 1;
+    padding: 2rem;
+}
+.section-one,
+.section-two{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    width: 40%;
+    height: 20rem;
+    justify-content: start;
+    align-items: start;
+}
+h2{
+    color: gray;
+}
+h1{
+    color: gray;
+    flex-direction: column;
+    
+
+}
+.botao{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    gap:3rem;
+}
+.card{
+    display: flex;
+    width: 100%;
+    height: 35rem;
+    background-color:azure;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1rem;
+   }
+
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35rem;
+    background-color: rgb(167, 148, 148);
+    border-radius: 10px;
+    flex-direction: column;
+    padding: 6rem;
+    gap: 4rem
+    }
+.produto{
+    color: black;
+}
+.descrição{
+    color: azure;
+}
+h2{
+    color: black;
+}
+
+.section-one{
+    margin-left: 25rem;
+}
+.section-two{
+    margin-right: 25rem;
+}
